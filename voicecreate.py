@@ -3,7 +3,7 @@ from discord.ext import commands
 import traceback
 import sys
 
-bot = commands.Bot(command_prefix=".")
+bot = commands.Bot(command_prefix="pv!")
 
 bot.remove_command("help")
 
